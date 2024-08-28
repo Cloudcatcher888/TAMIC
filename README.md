@@ -43,7 +43,7 @@ python == 3.7
 1, You can run the code by: 
 
 ```
-python train.py
+python code/train.py
 ```
 
 3, You can change customize the initial interest number K and \delta K in utils.Config.
@@ -57,7 +57,7 @@ Please cite our paper if you use this code.
 @inproceedings{wang2022sdm,
   title={Time-aware Multi-interest Capsule Network for Sequential Recommendation},
   author={Zhikai Wang and Yanyan Shen},
-  journal={SDM},
+  booktitle={SDM},
   year={2022}
 }
 ```
